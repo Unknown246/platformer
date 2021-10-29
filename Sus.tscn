@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+margin_left = 269.0
+margin_top = 215.0
+margin_right = 725.0
+margin_bottom = 411.0
+text = "Sus"
+__meta__ = {
+"_edit_use_anchors_": false
+}
