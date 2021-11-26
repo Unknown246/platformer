@@ -10,7 +10,7 @@ radius = 21.5
 [node name="Player" type="KinematicBody2D" groups=[
 "player",
 ]]
-position = Vector2( 20.7841, 521.804 )
+position = Vector2( 16.0219, 521.804 )
 scale = Vector2( 1.4, 1 )
 script = ExtResource( 1 )
 __meta__ = {
@@ -19,7 +19,7 @@ __meta__ = {
 
 [node name="Ajy" type="Sprite" parent="."]
 position = Vector2( 2.18432, 9.42395 )
-scale = Vector2( 0.393239, 0.594131 )
+scale = Vector2( 2, 2 )
 z_index = -200
 texture = ExtResource( 3 )
 
