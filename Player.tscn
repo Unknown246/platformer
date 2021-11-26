@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://Ajy.png" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 21.5
@@ -9,12 +10,18 @@ radius = 21.5
 [node name="Player" type="KinematicBody2D" groups=[
 "player",
 ]]
-position = Vector2( 17.1675, 520.152 )
+position = Vector2( 20.7841, 521.804 )
+scale = Vector2( 1.4, 1 )
 script = ExtResource( 1 )
 __meta__ = {
-"_edit_group_": true,
-"_edit_lock_": true
+"_edit_group_": true
 }
+
+[node name="Ajy" type="Sprite" parent="."]
+position = Vector2( 2.18432, 9.42395 )
+scale = Vector2( 0.393239, 0.594131 )
+z_index = -200
+texture = ExtResource( 3 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0.124999, 0 )

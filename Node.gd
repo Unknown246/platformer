@@ -1,5 +1,7 @@
 extends Node
 
+export onready var chekpoint = PackedScene.new()
+signal chekpoint_activated
 
 
 var sus = Node.new()
